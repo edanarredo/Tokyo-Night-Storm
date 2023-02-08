@@ -162,13 +162,6 @@
 }
 
 /* Chat Box */
-.buttons-uaqb-5 {
-  opacity: 0;
-  transition: opacity .15s;
-}
-.channelTextArea-1FufC0:hover .buttons-uaqb-5 {
-  opacity: 1;
-}
 .placeholder-1rCBhr {
   color: var(--text-muted) !important;
 }
@@ -184,10 +177,7 @@
   border-bottom: 2px var(--background-tertiary) solid;
   transition: border-color .15s ease;
 }
-.scrollableContainer-15eg7h:hover,
-.scrollableContainer-15eg7h:focus-within {
-  border-bottom-color: var(--accent-color);
-}
+
 .emptyChannelIcon-1YdEz2 {
   background-color: var(--background-tertiary);
 }
